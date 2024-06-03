@@ -58,6 +58,7 @@ After forking repository to your account, please clone it to your local machine 
 
 This is base AWS account id that we use for the base repository.
 You must replace this with your own account id in all files.
+* 975050328111
 
 Then, you should go to **wrapper.properties** and set **UNIQUE_BUCKET_STRING** to your custom, unique string, that will
 be added as a suffix to your state bucket name.
