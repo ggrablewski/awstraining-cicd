@@ -47,5 +47,6 @@ jobs:
     steps:
       - name: Display summary
         run: |
-          echo "### Summary - length of last name ${{ needs.print_last_name.outputs.characters_length }}"
+          echo "### Summary - length of last name ${{ needs.print_last_name.outputs.characters_length }}" >> $GITHUB_STEP_SUMMARY
+
     
